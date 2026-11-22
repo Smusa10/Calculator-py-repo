@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Python clean",
+            "group":{
+                "kind": "build",
+                "isDefault": true
+            },
+            "type": "process",
+            "command": "/usr/bin/python3",
+            "args": [
+                "${file}"
+            ],
+            "presentation": {
+                "echo": false,
+                "clear": true,
+                "showReuseMessage": false
+            },
+            "problemMatcher": [],
+            }
+        
+    ]
+}
+
